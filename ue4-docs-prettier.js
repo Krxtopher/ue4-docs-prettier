@@ -2,6 +2,7 @@
 // @name         Unreal Engine API Docs Prettier
 // @namespace    https://kschultz-web-misc.s3-us-west-2.amazonaws.com
 // @version      0.1
+// @updateurl    https://kschultz-web-misc.s3-us-west-2.amazonaws.com/tamper-monkey/ue2-docs-prettier/ue4-docs-prettier.js
 // @description  Improves formatting of Unreal Engine API documentation.
 // @author       Kris Schultz
 // @match        https://docs.unrealengine.com/en-US/API/*
