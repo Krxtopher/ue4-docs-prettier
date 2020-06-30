@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Unreal Engine API Docs Prettier
 // @namespace    https://kschultz-web-misc.s3-us-west-2.amazonaws.com
-// @version      0.2
+// @version      0.3
 // @description  Improves formatting of Unreal Engine API documentation.
 // @author       Kris Schultz
 // @match        https://docs.unrealengine.com/en-US/API/*
@@ -14,7 +14,8 @@
     // Collapse sections.
     document.querySelectorAll('.expanded').forEach(el => {
         // Keep only the "Syntax" section open by default.
-        if (el.firstElementChild.textContent != 'Syntax') {
+        const sectionName = el.firstElementChild.textContent;
+        if (sectionName != 'Syntax' && sectionName != 'Parameters') {
             el.onclick();
         }
     });
