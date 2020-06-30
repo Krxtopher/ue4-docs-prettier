@@ -11,11 +11,25 @@ body {
     margin-left: 0 !important;
 }
 
+#pagecontainer {
+    font-size: 16px !important;
+}
+
+.heading p {
+    font-size: 18px !important;
+    margin: 0.15em 0 !important;
+    display: inline-block;
+}
+
+.heading p:hover {
+    color: #3C92D8 !important;
+}
+
 #splitter {
     display: none !important;
 }
 
-TD {
+td {
     padding: 0 0 0 0.7em !important;
     height: auto !important;
 }
@@ -65,13 +79,12 @@ TD {
     font-size: 90% !important;
 }
 
-.expanded,
-.expandable {
+.expanded, .expandable {
     background-position: 0 !important;
 }
 
 #syntax {
-    margin: 2em 0 !important;
+    margin: 1em 0 !important;
 }
 
 .simplecode_api {
@@ -122,15 +135,13 @@ td {
     background-color: #f3f3f3 !important;
 }
 
-
 /* TEMP: Hiding method args */
 
 .name-cell-arguments {
     display: none !important;
 }
 
-#contentContainer a,
-#pagenav a {
+#contentContainer a, #pagenav a {
     color: #3C92D8 !important;
 }
 
